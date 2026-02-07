@@ -11,7 +11,7 @@ SDD(仕様駆動開発)のためのcursor用のルールのテンプレートで
 mkdir -p ./.cursor/rules
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/global.mdc -o ./.cursor/rules/global.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-code.mdc -o ./.cursor/rules/guideline-code.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-question.mdc -o ./.cursor/rules/guideline-question.mdc
+curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-alert.mdc -o ./.cursor/rules/guideline-alert.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-research.mdc -o ./.cursor/rules/guideline-research.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-specs.mdc -o ./.cursor/rules/guideline-specs.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/guideline-tasks.mdc -o ./.cursor/rules/guideline-tasks.mdc
