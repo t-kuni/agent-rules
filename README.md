@@ -23,6 +23,8 @@ curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/ta
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/tasks-make-spec.mdc -o ./.cursor/rules/tasks-make-spec.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/tasks-make-task-list.mdc -o ./.cursor/rules/tasks-make-task-list.mdc
 curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/tasks-test-error.mdc -o ./.cursor/rules/tasks-test-error.mdc
+curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/init-worktree.md -o ./.cursor/commands/init-worktree.md
+curl -L https://raw.githubusercontent.com/t-kuni/cursor-rules/refs/heads/main/worktree-init.sh -o ./worktree-init.sh
 ```
 
 
