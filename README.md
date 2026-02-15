@@ -11,45 +11,45 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 
 # 🟦 使い方
 
-対象プロジェクトのルートディレクトリで、以下のスクリプトを実行してください：
+対象プロジェクトのルートディレクトリで、以下のコマンドを実行してください：
 
-### 🟠 Cursor IDE の場合
+### 🟠 基本的な使い方
 
+`TOOL` 環境変数でツール名を指定して実行します：
+
+**Cursor IDE の場合:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-cursor.sh | bash
+TOOL=cursor curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
 ```
 
-以下のファイルが作成されます：
+作成されるファイル：
 - `.cursor/skills/` (13 個のスキル)
 - `AGENTS.md` (基本ガイダンス)
 
-### 🟠 Claude Code の場合
-
+**Claude Code の場合:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-claude.sh | bash
+TOOL=claude curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
 ```
 
-以下のファイルが作成されます：
+作成されるファイル：
 - `.claude/skills/` (13 個のスキル)
 - `.claude/CLAUDE.md` (基本ガイダンス)
 
-### 🟠 Codex CLI の場合
-
+**Codex CLI の場合:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-codex.sh | bash
+TOOL=codex curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
 ```
 
-以下のファイルが作成されます：
+作成されるファイル：
 - `.agents/skills/` (13 個のスキル)
 - `AGENTS.md` (基本ガイダンス)
 
-### 🟠 Gemini CLI の場合
-
+**Gemini CLI の場合:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-gemini.sh | bash
+TOOL=gemini curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
 ```
 
-以下のファイルが作成されます：
+作成されるファイル：
 - `.gemini/skills/` (13 個のスキル)
 - `GEMINI.md` (基本ガイダンス)
 
@@ -58,7 +58,7 @@ curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/s
 引数でターゲットディレクトリを指定できます：
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-cursor.sh | bash -s -- path/to/target/project
+TOOL=cursor curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash -s -- path/to/target/project
 ```
 
 ### 🟠 注意事項
