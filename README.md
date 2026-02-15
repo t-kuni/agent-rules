@@ -1,6 +1,70 @@
-# 🟦 Cursor Rules
+# 🟦 Agent Rules
 
-SDD(仕様駆動開発)のためのcursor用のルールのテンプレートです
+SDD(仕様駆動開発)のための各種AIツール用のルール・スキルのテンプレートです。
+
+### 🟠 サポートツール
+
+- **Cursor IDE**
+- **Claude Code**
+- **Codex CLI**
+- **Gemini CLI**
+
+# 🟦 使い方
+
+対象プロジェクトのルートディレクトリで、以下のスクリプトを実行してください：
+
+### 🟠 Cursor IDE の場合
+
+```bash
+/path/to/agent-rules/setup-cursor.sh
+```
+
+以下のファイルが作成されます：
+- `.cursor/skills/` (13 個のスキル)
+- `AGENTS.md` (基本ガイダンス)
+
+### 🟠 Claude Code の場合
+
+```bash
+/path/to/agent-rules/setup-claude.sh
+```
+
+以下のファイルが作成されます：
+- `.claude/skills/` (13 個のスキル)
+- `.claude/CLAUDE.md` (基本ガイダンス)
+
+### 🟠 Codex CLI の場合
+
+```bash
+/path/to/agent-rules/setup-codex.sh
+```
+
+以下のファイルが作成されます：
+- `.agents/skills/` (13 個のスキル)
+- `AGENTS.md` (基本ガイダンス)
+
+### 🟠 Gemini CLI の場合
+
+```bash
+/path/to/agent-rules/setup-gemini.sh
+```
+
+以下のファイルが作成されます：
+- `.gemini/skills/` (13 個のスキル)
+- `GEMINI.md` (基本ガイダンス)
+
+### 🟠 別のディレクトリに展開する場合
+
+引数でターゲットディレクトリを指定できます：
+
+```bash
+/path/to/agent-rules/setup-cursor.sh /path/to/target/project
+```
+
+### 🟠 注意事項
+
+- セットアップスクリプトは既存ファイルを上書きします
+- カスタマイズした設定は、ツールごとの個人用設定ファイル（例: `CLAUDE.local.md`）に保存してください
 
 # 🟦 タスクをトリガーするプロンプトの一覧
 
