@@ -16,7 +16,7 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 ### 🟠 Cursor IDE の場合
 
 ```bash
-/path/to/agent-rules/setup-cursor.sh
+curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-cursor.sh | bash
 ```
 
 以下のファイルが作成されます：
@@ -26,7 +26,7 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 ### 🟠 Claude Code の場合
 
 ```bash
-/path/to/agent-rules/setup-claude.sh
+curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-claude.sh | bash
 ```
 
 以下のファイルが作成されます：
@@ -36,7 +36,7 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 ### 🟠 Codex CLI の場合
 
 ```bash
-/path/to/agent-rules/setup-codex.sh
+curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-codex.sh | bash
 ```
 
 以下のファイルが作成されます：
@@ -46,7 +46,7 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 ### 🟠 Gemini CLI の場合
 
 ```bash
-/path/to/agent-rules/setup-gemini.sh
+curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-gemini.sh | bash
 ```
 
 以下のファイルが作成されます：
@@ -58,7 +58,7 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 引数でターゲットディレクトリを指定できます：
 
 ```bash
-/path/to/agent-rules/setup-cursor.sh /path/to/target/project
+curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup-cursor.sh | bash -s -- path/to/target/project
 ```
 
 ### 🟠 注意事項
