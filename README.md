@@ -19,22 +19,22 @@ SDD(仕様駆動開発)のための各種AIツール用のルール・スキル�
 
 **Cursor IDE の場合:**
 ```bash
-TOOL=cursor curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
+TOOL=cursor bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash"
 ```
 
 **Claude Code の場合:**
 ```bash
-TOOL=claude curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
+TOOL=claude bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash"
 ```
 
 **Codex CLI の場合:**
 ```bash
-TOOL=codex curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
+TOOL=codex bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash"
 ```
 
 **Gemini CLI の場合:**
 ```bash
-TOOL=gemini curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash
+TOOL=gemini bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash"
 ```
 
 ### 🟠 別のディレクトリに展開する場合
@@ -42,7 +42,7 @@ TOOL=gemini curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/
 引数でターゲットディレクトリを指定できます：
 
 ```bash
-TOOL=cursor curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash -s -- path/to/target/project
+TOOL=cursor bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/setup.sh | bash -s -- path/to/target/project"
 ```
 
 ### 🟠 注意事項
