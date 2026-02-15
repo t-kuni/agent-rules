@@ -7,25 +7,7 @@ SDD(仕様駆動開発)のためのcursor用のルールのテンプレートで
 本リポジトリのルールファイル郡をまとめてダウンロードします。  
 コマンドを実行したフォルダから見て `.cursor/rules` フォルダに配置されます。
 
-```
-mkdir -p ./.cursor/rules
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/global.mdc -o ./.cursor/rules/global.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-code.mdc -o ./.cursor/rules/guideline-code.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-alert.mdc -o ./.cursor/rules/guideline-alert.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-research.mdc -o ./.cursor/rules/guideline-research.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-specs.mdc -o ./.cursor/rules/guideline-specs.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-tasks.mdc -o ./.cursor/rules/guideline-tasks.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/guideline-test.mdc -o ./.cursor/rules/guideline-test.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-bug-fix.mdc -o ./.cursor/rules/tasks-bug-fix.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-exec-research.mdc -o ./.cursor/rules/tasks-exec-research.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-exec-tasks.mdc -o ./.cursor/rules/tasks-exec-tasks.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-make-research-prompt.mdc -o ./.cursor/rules/tasks-make-research-prompt.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-make-spec.mdc -o ./.cursor/rules/tasks-make-spec.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-make-task-list.mdc -o ./.cursor/rules/tasks-make-task-list.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/tasks-test-error.mdc -o ./.cursor/rules/tasks-test-error.mdc
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/init-worktree.md -o ./.cursor/commands/init-worktree.md
-curl -L https://raw.githubusercontent.com/t-kuni/agent-rules/refs/heads/main/worktree-init.sh -o ./worktree-init.sh
-```
+
 
 
 # 🟦 タスクをトリガーするプロンプトの一覧
