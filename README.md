@@ -71,7 +71,7 @@ TOOL=cursor bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-ru
         - 理由：矛盾や重複による実装のブレを回避するため
 - 実装は「仕様書の写像」
     - 人間が見るのは仕様書が中心。先に仕様書を修正してから実装を修正する
-- Thinking Model や Deep Research を活用する
+- リサーチには Thinking Model や Deep Research を活用する
     - 実装の大方針やアーキテクチャ設計、フォルダ設計、ライブラリ選定などに用いる
     - 手順
         1. AIにプロジェクトの背景を含めたリサーチプロンプトを書かせる
@@ -81,11 +81,11 @@ TOOL=cursor bash -c "curl -sSL https://raw.githubusercontent.com/t-kuni/agent-ru
         - ここで決める内容は、将来の開発効率や品質に大きく影響するため。
         - 要件にマッチしたライブラリやフレームワークが選定できればそれがガードレールになる
         - テストコードの効果を最大化する事でデグレを減らせる
-- 同一レイヤーの似ているコードを参考にさせる
+- コーディング時、同一レイヤーの似ているコードを参考にさせる
     - メリット：コーディングスタイルが揃う
 - 復唱テクニック
     - 詳細：https://zenn.dev/sesere/articles/0420ecec9526dc
-    - 「絶対厳守ルール」としてこのテクニックを利用している
+    * AIに絶対に守らせたいルールに対してこのテクニックを用いている
 
 # 🟦 運用フロー
 
